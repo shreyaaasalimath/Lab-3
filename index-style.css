@@ -1,0 +1,43 @@
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#container {
+    background-color: rgba(255, 255, 255, 0.85);
+    margin: 0 auto;
+    width: 80%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+header, section, footer {
+    border: 1px solid #333;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #f9f9f9;
+}
+
+h1, h2 {
+    color: #444;
+    text-align: center;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+section {
+    float: left;
+    width: 100%;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
